@@ -5,7 +5,8 @@ export {
   BriefcaseBusiness,
   CodeXml,
   Heart,
-  ExternalLink,
   Mail,
   UserRound,
 } from 'lucide-react';
+
+export { FaGithub, FaLinkedin } from 'react-icons/fa';

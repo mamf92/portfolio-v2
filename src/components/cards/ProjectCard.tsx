@@ -29,7 +29,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             {project.techStack.map((tech) => (
               <span
                 key={tech}
-                className="bg-xlightgrey text-darkgrey rounded-full px-3 py-1 text-xs font-semibold tracking-widest uppercase"
+                className="text-darkgrey rounded-full border border-black px-3 py-1 text-xs font-semibold tracking-widest uppercase"
               >
                 {tech}
               </span>
@@ -50,7 +50,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             href={project.liveUrl}
             target="_blank"
             rel="noreferrer"
-            className="bg-funpink hover:bg-pink inline-flex items-center justify-center gap-2 rounded-md px-4 py-3 text-sm font-semibold text-white transition-colors duration-300"
+            className="bg-funpink hover:bg-funpurple inline-flex items-center justify-center gap-2 rounded-md px-4 py-3 text-sm font-semibold text-white transition-colors duration-300"
           >
             Visit website
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -59,7 +59,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             href={project.repoUrl}
             target="_blank"
             rel="noreferrer"
-            className="border-funpink text-funpink hover:bg-funpink inline-flex items-center justify-center gap-2 rounded-md border bg-white px-4 py-3 text-sm font-semibold transition-colors duration-300 hover:text-white"
+            className="border-funpink text-funpink hover:bg-funpurple hover:border-funpurple inline-flex items-center justify-center gap-2 rounded-md border bg-white px-4 py-3 text-sm font-semibold transition-colors duration-300 hover:text-white"
           >
             Read README
             <ArrowRight className="h-4 w-4" aria-hidden="true" />

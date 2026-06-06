@@ -8,10 +8,10 @@ export const passionProject = {
   title: 'ESC Party',
   description:
     'A TypeScript + React quiz platform centered on Eurovision, featuring multiplayer and single-player modes. Built with Firebase/Firestore to enable real-time interactivity and designed for iterative development with evolving features. Includes in-progress components such as custom quiz creation, live scoring, and artist discovery.',
-  techStack: ['HTML', 'CSS', 'React', 'TypeScript'],
+  techStack: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
   liveUrl: 'https://mamf92.github.io/escparty/',
   repoUrl: 'https://github.com/mamf92/escparty',
-  imageUrl: '',
+  imageUrl: 'assets/images/escparty.webp',
   imageAlt:
     'ESC Party app interface displaying quiz options and navigation controls.',
 };
@@ -20,7 +20,7 @@ export const contactProfile = {
   heading: 'A coffee with opportunities?',
   description:
     "Get in touch through LinkedIn, check out my work on GitHub, or send me an email. I'll get back to you as quickly as I can :)",
-  imageUrl: '/assets/images/profile-picture.webp',
+  imageUrl: 'assets/images/profile-picture.webp',
   imageAlt: 'Martin Fischer smiling with a neutral background.',
   linkedinUrl: 'https://www.linkedin.com/in/mamf92/',
   githubUrl: 'https://github.com/mamf92',

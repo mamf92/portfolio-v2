@@ -11,11 +11,11 @@ export default function AboutCard({ heading, description }: AboutCardProps) {
       <div className="flex flex-col gap-6 text-black">
         <h1
           id="about-heading"
-          className="text-3xl sm:text-4xl font-bold leading-tight sm:text-5xl"
+          className="text-3xl leading-tight font-bold sm:text-4xl"
         >
           {heading}
         </h1>
-        <p className="text-base sm:text-lg leading-7 text-darkgrey">
+        <p className="text-darkgrey text-base leading-7 sm:text-lg">
           {description}
         </p>
       </div>
@@ -23,14 +23,14 @@ export default function AboutCard({ heading, description }: AboutCardProps) {
       <div className="flex flex-wrap gap-4">
         <a
           href="#projects"
-          className="inline-flex items-center justify-center gap-2 rounded-md bg-funpink px-5 py-3 font-semibold text-white transition-colors duration-300 hover:bg-funpurple"
+          className="bg-funpink hover:bg-funpurple inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 font-semibold text-white transition-colors duration-300"
         >
           Projects
           <ArrowDown className="h-4 w-4" aria-hidden="true" />
         </a>
         <a
           href="#contact"
-          className="inline-flex items-center justify-center gap-2 rounded-md bg-funpink px-5 py-3 font-semibold text-white transition-colors duration-300 hover:bg-funpurple"
+          className="bg-funpink hover:bg-funpurple inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 font-semibold text-white transition-colors duration-300"
         >
           Get in touch
           <ArrowDown className="h-4 w-4" aria-hidden="true" />
