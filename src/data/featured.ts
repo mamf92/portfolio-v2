@@ -7,7 +7,7 @@ export const about = {
 export const passionProject = {
   title: 'ESC Party',
   description:
-    'A TypeScript + React quiz platform centered on Eurovision, featuring multiplayer and single-player modes. Built with Firebase/Firestore to enable real-time interactivity and designed for iterative development with evolving features. Includes in-progress components such as custom quiz creation, live scoring, and artist discovery.',
+    'A TypeScript + React quiz platform centered on Eurovision, featuring multiplayer and single-player modes. Built with Firebase/Firestore to enable real-time interactivity and designed for iterative development with evolving features. Future development will add in-progress components such as custom quiz creation, live scoring, and artist discovery.',
   techStack: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
   liveUrl: 'https://mamf92.github.io/escparty/',
   repoUrl: 'https://github.com/mamf92/escparty',
@@ -32,6 +32,7 @@ export const experienceSection = {
   paragraphs: [
     'After years in the classroom, I decided to pursue my long-standing interest in technology. Today, I enjoy building responsive, inclusive, and maintainable web interfaces and I am constantly learning to improve my skills and broaden my toolset.',
     'With my background in education, I bring strong communication skills and a user-focused mindset to my work. I have a passion for contributing to my work environment which I know has value in any team. Being structured and organized, I strive to write clean, accessible code that is easy to maintain and scale. I am always eager to learn new technologies and improve my skills, and I am excited about the opportunity to work with a team that shares my passion for creating great user experiences.',
+    'I am currently working at DNB as a summer intern, developing a company credit hub solution. So far, the experience has shown me how my skills have set me up for a smooth onboarding process and I have already learnt a lot.',
   ],
   githubUrl: 'https://github.com/mamf92',
   cvUrl: '/assets/cv/martin-fischer-cv.pdf',

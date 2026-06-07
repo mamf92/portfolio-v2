@@ -42,9 +42,9 @@ export const projects: Project[] = [
       'Fully responsive across mobile and desktop',
     ],
     context:
-      'The PE2 brief challenged students to work on a real-world assignment. I applied to build the actual website for Stavanger Brettspillklubb, a board game club in Stavanger. Design, user stories, and feature priorities were shaped through interviews and ongoing feedback with the club board, then mapped against the exam requirements. Sanity was chosen for content management and Supabase for backend data, with development split across three planned iterations: a static MVP, the member/admin flows, and a final testing and polish phase.',
+      'The PE2 brief challenged students to work on a close to real-world assignment. I applied to build the actual website for Stavanger Brettspillklubb, a board game club in Stavanger. Design, user stories, and feature priorities were shaped through interviews and ongoing feedback with the club board, then mapped against the exam requirements. Sanity was chosen for content management and Supabase for backend data, with development split across three planned iterations: a static MVP, the member/admin flows, and a final testing and polish phase.',
     reflection:
-      'This is an ongoing project — the site is not yet in full deployment. Still to be built: a game overview with search, dedicated event pages with sign-up, a proper member portal, comprehensive form validation with React Hook Form and Zod, and more robust error handling throughout. The static content side (about page, contact form) also needs to be completed. Once these are in place the site will be ready for the club to go live with.',
+      'This is an ongoing project — the site is not yet in full deployment. Still to be built is a board game overview with search, dedicated event pages with sign-up, a proper member portal, comprehensive form validation with React Hook Form and Zod, and more robust error handling throughout. The static content side (about page, contact form) also needs to be completed. Once these are in place the site will be ready for the club to go live with.',
   },
   {
     id: 'scretcher',
@@ -66,9 +66,9 @@ export const projects: Project[] = [
       'Cart state persisted across navigation with Zustand',
     ],
     context:
-      'Built to demonstrate a complete e-commerce flow with an emphasis on validation and client-side state management. Next.js handles routing and SSR; Zustand keeps cart state alive across page transitions without prop drilling.',
+      'Built to demonstrate a complete e-commerce flow with an emphasis on validation and client-side state management. Next.js handles routing and SSR; Zustand keeps cart state alive across page transitions without prop drilling. This was an optional collaborative project.',
     reflection:
-      "I'd extract the Zod validation schemas into shared utilities from the start rather than colocating them in components — they grew larger than expected and became harder to reuse. The project solidified my understanding of controlled forms and schema-first validation.",
+      'This project was a collaboration with another student, which both made it more engaging and challenging. New features were added more quickly, but decissions and the creative process also move slower. It was a valuable learning experience highlighting the importance of contributing to a team effort. The project also solidified my understanding of controlled forms and schema-first validation.',
   },
   {
     id: 'wexford-gallery',
@@ -90,9 +90,9 @@ export const projects: Project[] = [
       'Dashboard with your active bids and purchased items',
     ],
     context:
-      'Built for Noroff Semester Project 2. Constrained to vanilla TypeScript — no frameworks — and integrated with a third-party REST API for all data, authentication, and bidding logic. Every DOM update is hand-rolled.',
+      'Built for Noroff Semester Project 2. Constrained to vanilla TypeScript — no frameworks — and integrated with a Noroff REST API for all data, authentication, and bidding logic.',
     reflection:
-      "Given more time, I'd componentise the DOM manipulation logic and introduce a proper state layer to reduce side effects scattered across modules. The project taught me a lot about structuring vanilla TypeScript at scale, and how quickly ad-hoc DOM updates become difficult to trace without a clear data flow.",
+      'The project gave me a solid introduction to working with REST APIs and handling authentication with JavaScript. Handling form validation and updating UI state without a framework was a challenge, but also gave me the chance to push through how complex JavaScript can become with only the basics in place. The form validation user feedback is one of the highligts, and I believe the design is clean and different.',
   },
 ];
 

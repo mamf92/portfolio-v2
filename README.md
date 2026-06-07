@@ -15,6 +15,7 @@ The purpose of this project is to self-assess, reflect on what I've learned so f
 The goal was to build a clean, responsive, and accessible portfolio site using **React**, **TypeScript**, **Tailwind CSS**, and **Vite**. The site includes teaser cards for three major assignments with links to the README, the deployed demo, and a details page about the project. Furthermore each project has been enhanced focusing especially on performance and accessibility.
 
 Lastly, I wrote a reflection report discussing:
+
 - Improvements I have made on the projects
 - What I would improve further
 - What I have learned from each project
@@ -24,16 +25,19 @@ Lastly, I wrote a reflection report discussing:
 ## ⚙️ Built With
 
 **Frontend:**
+
 - [React 19](https://react.dev/) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)
 - [TypeScript](https://www.typescriptlang.org/) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 - [Tailwind CSS v4](https://tailwindcss.com/) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 - [Vite](https://vitejs.dev/) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 
 **Icons:**
+
 - [Lucide React](https://lucide.dev/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
 **Tooling:**
+
 - [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) — linting and formatting
 - [Husky](https://typicode.github.io/husky/) — pre-commit hooks via lint-staged
 
@@ -55,17 +59,20 @@ Lastly, I wrote a reflection report discussing:
 ### Installing
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/mamf92/portfolio-v2.git
 cd portfolio-v2
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -76,12 +83,12 @@ The app will be available at `http://localhost:5173`.
 
 ### Scripts
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start the local development server |
-| `npm run build` | Type-check and build for production |
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start the local development server   |
+| `npm run build`   | Type-check and build for production  |
 | `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint across the project |
+| `npm run lint`    | Run ESLint across the project        |
 
 ---
 
@@ -90,6 +97,7 @@ The app will be available at `http://localhost:5173`.
 This project enforces code quality automatically on every commit via [Husky](https://typicode.github.io/husky/) pre-commit hooks. Staged files are run through ESLint and Prettier before the commit goes through — no manual formatting step needed.
 
 To run them manually:
+
 ```bash
 npm run lint            # ESLint
 npx prettier --write .  # Prettier
@@ -100,14 +108,17 @@ npx prettier --write .  # Prettier
 ## 🧠 Projects
 
 ### Stavanger Board Game Club
+
 Project Exam 2 – A club website built with React, TypeScript, Tailwind CSS, Sanity, and Supabase.
 👉 [Live demo](https://mamf92.github.io/sbsk-website)
 
 ### Scretcher Online Shop
+
 JavaScript Frameworks – An online shop built with Next.js, Tailwind CSS, React Hook Form, Zod, and Zustand.
-👉 [Live demo](https://genuine-sundae-0c12fa.netlify.app/)
+👉 [Live demo](https://skretcher.netlify.app/)
 
 ### The Wexford Gallery Auction House
+
 Semester Project 2 – A vanilla JS project with TypeScript and Tailwind CSS, showcasing API integration and user-friendly design.
 👉 [Live demo](https://mamf92.github.io/wexfordgallery/)
 
