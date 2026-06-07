@@ -1,5 +1,7 @@
 # 🧑‍💻 Martin Fischer – Front-End Developer Portfolio
 
+![Portfolio Banner](https://github.com/mamf92/portfolio-v2/blob/main/public/assets/images/portfolio-banner.png?raw=true)
+
 This is my second-year **Portfolio 2 Course Assignment** as part of the Front-End Development programme at Noroff. It's a single-page application portfolio site showcasing three of my graded projects from the second year:
 
 - [Project Exam 2 - Stavanger Board Game Club](https://mamf92.github.io/sbsk-website)
