@@ -29,7 +29,7 @@ export default function PassionProjectCard({
             className="h-full w-full rounded-lg object-cover"
           />
         ) : (
-          <div className="text-gray flex h-full w-full items-center justify-center rounded-lg border border-black text-sm font-semibold tracking-widest uppercase">
+          <div className="text-grey flex h-full w-full items-center justify-center rounded-lg border border-black text-sm font-semibold tracking-widest uppercase">
             Passion project image
           </div>
         )}

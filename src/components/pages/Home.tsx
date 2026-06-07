@@ -15,7 +15,7 @@ import { projects } from '../../data/projects.ts';
 
 export default function Home() {
   return (
-    <div className="md:w-90vw min-h-screen w-[calc(100vw-4rem)] sm:w-[calc(100vw-6rem)]">
+    <div className="min-h-screen w-[calc(100vw-4rem)] sm:w-[calc(100vw-6rem)] md:w-[90vw]">
       <Header />
       <main id="main-content" className="flex flex-col gap-16 pt-8 pb-8">
         <section

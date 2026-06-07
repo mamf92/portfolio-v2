@@ -20,3 +20,7 @@ npm-debug.log*
 .vscode/*
 !.vscode/extensions.json
 .idea
+-e 
+# lint cache
+.eslintcache
+.prettiercache

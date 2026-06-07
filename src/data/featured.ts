@@ -11,7 +11,7 @@ export const passionProject = {
   techStack: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
   liveUrl: 'https://mamf92.github.io/escparty/',
   repoUrl: 'https://github.com/mamf92/escparty',
-  imageUrl: 'assets/images/escparty.webp',
+  imageUrl: '/assets/images/escparty.webp',
   imageAlt:
     'ESC Party app interface displaying quiz options and navigation controls.',
 };
@@ -20,7 +20,7 @@ export const contactProfile = {
   heading: 'A coffee with opportunities?',
   description:
     "Get in touch through LinkedIn, check out my work on GitHub, or send me an email. I'll get back to you as quickly as I can :)",
-  imageUrl: 'assets/images/profile-picture.webp',
+  imageUrl: '/assets/images/profile-picture.webp',
   imageAlt: 'Martin Fischer smiling with a neutral background.',
   linkedinUrl: 'https://www.linkedin.com/in/mamf92/',
   githubUrl: 'https://github.com/mamf92',
@@ -34,5 +34,5 @@ export const experienceSection = {
     'With my background in education, I bring strong communication skills and a user-focused mindset to my work. I have a passion for contributing to my work environment which I know has value in any team. Being structured and organized, I strive to write clean, accessible code that is easy to maintain and scale. I am always eager to learn new technologies and improve my skills, and I am excited about the opportunity to work with a team that shares my passion for creating great user experiences.',
   ],
   githubUrl: 'https://github.com/mamf92',
-  cvUrl: 'assets/cv/martin-fischer-cv.pdf',
+  cvUrl: '/assets/cv/martin-fischer-cv.pdf',
 };

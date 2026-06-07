@@ -40,7 +40,6 @@ export default function Footer() {
             </a>
             <a
               href="mailto:mamfischer92@gmail.com"
-              target="_blank"
               aria-label="Send me an email."
               className="hover:text-funpink text-white transition-colors"
             >

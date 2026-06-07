@@ -3,6 +3,7 @@ export {
   ArrowLeft,
   ArrowRight,
   BriefcaseBusiness,
+  Check,
   CodeXml,
   Heart,
   Mail,

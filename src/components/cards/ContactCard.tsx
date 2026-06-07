@@ -21,7 +21,7 @@ export default function ContactCard({
 }: ContactCardProps) {
   return (
     <article className="flex flex-col items-center gap-6 bg-white md:flex-row md:items-stretch">
-      <div className="flex h-130 w-full items-center justify-center md:h-130 md:w-1/2">
+      <div className="flex h-130 w-full items-center justify-center md:w-1/2">
         {imageUrl ? (
           <img
             src={imageUrl}
