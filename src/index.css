@@ -1,7 +1,6 @@
 @import 'tailwindcss';
 
 @theme {
-  /* Colors */
   --color-black: #0d0d0d;
   --color-darkgrey: #262626;
   --color-grey: #595959;
@@ -17,7 +16,6 @@
   --color-white-transparent: #ffffffdd;
   --color-black-transparent: #0d0d0ddd;
 
-  /* Font families */
   --font-heading: 'Lexend Deca', 'Arial Narrow Bold', sans-serif;
   --font-body: 'Quicksand', 'Gill Sans', sans-serif;
 }
