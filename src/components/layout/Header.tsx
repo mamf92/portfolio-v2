@@ -52,7 +52,7 @@ export default function Header() {
         <img
           src="/logo/mf-logo.webp"
           alt="MF logo"
-          className="w-full object-contain transition-transform duration-300 hover:scale-110"
+          className="h-10 w-10 object-contain transition-transform duration-300 hover:scale-110 sm:h-12 sm:w-12 md:h-14 md:w-14 lg:h-16 lg:w-16"
         />
       </a>
 
