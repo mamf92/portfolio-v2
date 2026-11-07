@@ -94,6 +94,31 @@ export const projects: Project[] = [
     reflection:
       'The project gave me a solid introduction to working with REST APIs and handling authentication with JavaScript. Handling form validation and updating UI state without a framework was a challenge, but also gave me the chance to push through how complex JavaScript can become with only the basics in place. The form validation user feedback is one of the highligts, and I believe the design is clean and different.',
   },
+  {
+    id: 'portfolio',
+    title: 'Portfolio',
+    summary:
+      'This portfolio — a single-page React app showcasing my projects and experience.',
+    description:
+      'The site you are looking at right now. A responsive, accessible single-page portfolio built with React, TypeScript, Tailwind CSS, and Vite. It presents my selected projects with dedicated detail pages, a passion project, contact information, and a downloadable CV.',
+    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Router'],
+    liveUrl: 'https://mamf.no/',
+    repoUrl: 'https://github.com/mamf92/portfolio-v2',
+    imageUrl: '/assets/images/portfolio-preview.webp',
+    imageAlt: 'Portfolio website preview showing the projects section.',
+    features: [
+      'Single-page layout with a fixed side navigation between sections',
+      'Project detail pages with client-side routing via React Router',
+      'Content kept in typed data files, separate from the UI components',
+      'Responsive design from mobile to desktop',
+      'Accessible markup with semantic landmarks and labelled sections',
+      'Linting and formatting enforced with ESLint, Prettier, and Husky pre-commit hooks',
+    ],
+    context:
+      'Built for the Noroff Portfolio 2 course assignment in my second year of Front-End Development. The brief was to build a portfolio site presenting three graded projects from the second year, improve those projects with a focus on performance and accessibility, and reflect on what I have learned along the way.',
+    reflection:
+      'Building the portfolio was a chance to put everything from the two years together in one place — component structure, typed data, routing, and a consistent design system in Tailwind. Keeping all content in data files makes it easy to add new projects as I build them. Going forward I would like to add light and dark themes, subtle page transitions, and automated accessibility and performance checks in the deployment pipeline.',
+  },
 ];
 
 export function getProjectById(projectId: string | null | undefined) {
